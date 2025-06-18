@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0A0C4A532E034AB100E1DA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0C4A3C2E034AAF00E1DA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0C4A432E034AAF00E1DA44;
+			remoteInfo = DropSun;
+		};
+		0A0C4A5D2E034AB100E1DA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0C4A3C2E034AAF00E1DA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0C4A432E034AAF00E1DA44;
+			remoteInfo = DropSun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0C4A442E034AAF00E1DA44 /* DropSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0C4A522E034AB100E1DA44 /* DropSunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropSunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0C4A5C2E034AB100E1DA44 /* DropSunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropSunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0A0C4A462E034AAF00E1DA44 /* DropSun */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DropSun;
+			sourceTree = "<group>";
+		};
+		0A0C4A552E034AB100E1DA44 /* DropSunTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DropSunTests;
+			sourceTree = "<group>";
+		};
+		0A0C4A5F2E034AB100E1DA44 /* DropSunUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DropSunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0C4A412E034AAF00E1DA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A4F2E034AB100E1DA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A592E034AB100E1DA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0C4A3B2E034AAF00E1DA44 = {
+			isa = PBXGroup;
+			children = (
+				0A0C4A462E034AAF00E1DA44 /* DropSun */,
+				0A0C4A552E034AB100E1DA44 /* DropSunTests */,
+				0A0C4A5F2E034AB100E1DA44 /* DropSunUITests */,
+				0A0C4A452E034AAF00E1DA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0C4A452E034AAF00E1DA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0C4A442E034AAF00E1DA44 /* DropSun.app */,
+				0A0C4A522E034AB100E1DA44 /* DropSunTests.xctest */,
+				0A0C4A5C2E034AB100E1DA44 /* DropSunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0C4A432E034AAF00E1DA44 /* DropSun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0C4A662E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSun" */;
+			buildPhases = (
+				0A0C4A402E034AAF00E1DA44 /* Sources */,
+				0A0C4A412E034AAF00E1DA44 /* Frameworks */,
+				0A0C4A422E034AAF00E1DA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0A0C4A462E034AAF00E1DA44 /* DropSun */,
+			);
+			name = DropSun;
+			packageProductDependencies = (
+			);
+			productName = DropSun;
+			productReference = 0A0C4A442E034AAF00E1DA44 /* DropSun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A0C4A512E034AB100E1DA44 /* DropSunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0C4A692E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSunTests" */;
+			buildPhases = (
+				0A0C4A4E2E034AB100E1DA44 /* Sources */,
+				0A0C4A4F2E034AB100E1DA44 /* Frameworks */,
+				0A0C4A502E034AB100E1DA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0C4A542E034AB100E1DA44 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A0C4A552E034AB100E1DA44 /* DropSunTests */,
+			);
+			name = DropSunTests;
+			packageProductDependencies = (
+			);
+			productName = DropSunTests;
+			productReference = 0A0C4A522E034AB100E1DA44 /* DropSunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A0C4A5B2E034AB100E1DA44 /* DropSunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0C4A6C2E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSunUITests" */;
+			buildPhases = (
+				0A0C4A582E034AB100E1DA44 /* Sources */,
+				0A0C4A592E034AB100E1DA44 /* Frameworks */,
+				0A0C4A5A2E034AB100E1DA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0C4A5E2E034AB100E1DA44 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A0C4A5F2E034AB100E1DA44 /* DropSunUITests */,
+			);
+			name = DropSunUITests;
+			packageProductDependencies = (
+			);
+			productName = DropSunUITests;
+			productReference = 0A0C4A5C2E034AB100E1DA44 /* DropSunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0C4A3C2E034AAF00E1DA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0A0C4A432E034AAF00E1DA44 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0A0C4A512E034AB100E1DA44 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0A0C4A432E034AAF00E1DA44;
+					};
+					0A0C4A5B2E034AB100E1DA44 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0A0C4A432E034AAF00E1DA44;
+					};
+				};
+			};
+			buildConfigurationList = 0A0C4A3F2E034AAF00E1DA44 /* Build configuration list for PBXProject "DropSun" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A0C4A3B2E034AAF00E1DA44;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A0C4A452E034AAF00E1DA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0C4A432E034AAF00E1DA44 /* DropSun */,
+				0A0C4A512E034AB100E1DA44 /* DropSunTests */,
+				0A0C4A5B2E034AB100E1DA44 /* DropSunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0C4A422E034AAF00E1DA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A502E034AB100E1DA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A5A2E034AB100E1DA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0C4A402E034AAF00E1DA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A4E2E034AB100E1DA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0C4A582E034AB100E1DA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0C4A542E034AB100E1DA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0C4A432E034AAF00E1DA44 /* DropSun */;
+			targetProxy = 0A0C4A532E034AB100E1DA44 /* PBXContainerItemProxy */;
+		};
+		0A0C4A5E2E034AB100E1DA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0C4A432E034AAF00E1DA44 /* DropSun */;
+			targetProxy = 0A0C4A5D2E034AB100E1DA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0C4A642E034AB100E1DA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A0C4A652E034AB100E1DA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A0C4A672E034AB100E1DA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DropSun/DropSun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A0C4A682E034AB100E1DA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DropSun/DropSun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0A0C4A6A2E034AB100E1DA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropSun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DropSun";
+			};
+			name = Debug;
+		};
+		0A0C4A6B2E034AB100E1DA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropSun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DropSun";
+			};
+			name = Release;
+		};
+		0A0C4A6D2E034AB100E1DA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DropSun;
+			};
+			name = Debug;
+		};
+		0A0C4A6E2E034AB100E1DA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlinsideStudios.DropSunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DropSun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0C4A3F2E034AAF00E1DA44 /* Build configuration list for PBXProject "DropSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0C4A642E034AB100E1DA44 /* Debug */,
+				0A0C4A652E034AB100E1DA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0C4A662E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0C4A672E034AB100E1DA44 /* Debug */,
+				0A0C4A682E034AB100E1DA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0C4A692E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0C4A6A2E034AB100E1DA44 /* Debug */,
+				0A0C4A6B2E034AB100E1DA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0C4A6C2E034AB100E1DA44 /* Build configuration list for PBXNativeTarget "DropSunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0C4A6D2E034AB100E1DA44 /* Debug */,
+				0A0C4A6E2E034AB100E1DA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0C4A3C2E034AAF00E1DA44 /* Project object */;
+}
