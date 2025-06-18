@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = SunViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            
+            Color.blue.ignoresSafeArea()
+            
+            SunView(position: viewModel.sunPosition, size: viewModel.sunSize)
+            
+            MouseTrackingView(viewModel: viewModel)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.clear)
         }
         .padding()
     }
